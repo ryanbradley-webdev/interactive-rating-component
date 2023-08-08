@@ -7,6 +7,7 @@
   --clr-dark-blue: hsl(213, 19%, 18%);
   --clr-very-dark-blue: hsl(216, 12%, 8%);
   --clr-orange: hsl(25, 97%, 53%);
+  --gradient-black: radial-gradient(circle at top, hsl(215, 20%, 17%), hsl(215, 24%, 12%));
   --font-head-lg: bold 28px 'Overpass', 'Arial', sans-serif;
   --font-head-md: bold 15px 'Overpass', 'Arial', sans-serif;
   --font-body: 15px/24px 'Overpass', 'Arial', sans-serif;

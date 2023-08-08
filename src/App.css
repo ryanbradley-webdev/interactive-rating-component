@@ -2,9 +2,20 @@
   height: 100%;
   display: grid;
   place-items: center;
+  padding-inline: 24px;
 }
 
-main {
+section {
   width: 100%;
   max-width: 416px;
+  padding: 24px;
+  background: var(--gradient-black);
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 481px) {
+  section {
+    padding: 32px;
+    border-radius: 30px;
+  }
 }
