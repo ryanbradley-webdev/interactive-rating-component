@@ -9,7 +9,7 @@
   --clr-orange: hsl(25, 97%, 53%);
   --font-head-lg: bold 28px 'Overpass', 'Arial', sans-serif;
   --font-head-md: bold 15px 'Overpass', 'Arial', sans-serif;
-  --font-body: bold 15px/24px 'Overpass', 'Arial', sans-serif;
+  --font-body: 15px/24px 'Overpass', 'Arial', sans-serif;
   --font-rating: bold 16px/24px 'Overpass', 'Arial', sans-serif;
   --letter-space-head: 2px;
   --letter-space-rating: 0.2px;
@@ -24,9 +24,14 @@
 }
 
 html {
+  height: 100%;
   font: var(--font-body);
   color: var(--clr-light-grey);
   background-color: var(--clr-very-dark-blue);
+}
+
+body {
+  height: 100%;
 }
 
 h2 {
@@ -39,5 +44,7 @@ a {
 }
 
 button {
+  font: var(--font-rating);
+  color: var(--clr-med-grey);
   cursor: pointer;
 }

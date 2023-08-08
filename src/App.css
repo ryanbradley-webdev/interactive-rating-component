@@ -1,0 +1,10 @@
+#root {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 416px;
+}
