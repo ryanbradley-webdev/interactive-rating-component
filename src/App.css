@@ -44,6 +44,11 @@ section {
   width: 100%;
 }
 
+.rating button,
+.submit {
+  transition: 0.15s ease-in-out;
+}
+
 .rating button {
   position: relative;
   width: 42px;
@@ -54,6 +59,16 @@ section {
   background-color: var(--clr-dark-blue);
   border: none;
   border-radius: 100%;
+}
+
+.rating button[data-selected='true'] {
+  color: var(--clr-white);
+  background-color: var(--clr-med-grey);
+}
+
+.rating button:hover {
+  color: var(--clr-white);
+  background-color: var(--clr-orange);
 }
 
 .rating span {
