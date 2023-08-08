@@ -43,7 +43,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-p {
+p:not(:last-child) {
   margin-bottom: 24px;
 }
 

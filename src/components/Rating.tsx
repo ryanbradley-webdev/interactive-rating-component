@@ -74,7 +74,11 @@ export default function Rating({
 
             </div>
 
-            <button className='submit' onClick={submit}>
+            <button
+                className='submit'
+                onClick={submit}
+                disabled={!selectedRating}
+            >
                 SUBMIT
             </button>
         

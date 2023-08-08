@@ -13,6 +13,47 @@ section {
   border-radius: 15px;
 }
 
+section > svg {
+  display: block;
+  margin-inline: auto;
+  margin-top: 10px;
+}
+
+.selection {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+  margin-block: 24px;
+  width: 168px;
+  height: 32px;
+  color: var(--clr-orange);
+  background-color: var(--clr-dark-blue);
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+@media screen and (min-width: 481px) {
+  .selection {
+    width: 192px;
+    font-size: 15px;
+    margin-block: 32px;
+  }
+}
+
+.selection span {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  width: max-content;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  text-align: center;
+}
+
 @media screen and (min-width: 481px) {
   section {
     padding: 32px;
