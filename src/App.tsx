@@ -25,27 +25,43 @@ function App() {
   }
 
   return (
-    <section
-      ref={sectionRef}
-    >
+    <>
 
-      {
-        isSubmitted ? (
-          <Submitted
-            submittedRating={selectedRating}
-            opacity={opacity}
-          />
-        ) : (
-          <Rating
-            selectedRating={selectedRating}
-            setSelectedRating={setSelectedRating}
-            submit={submitRating}
-            opacity={opacity}
-          />
-        )
-      }
+      <section
+        ref={sectionRef}
+      >
 
-    </section>
+        {
+          isSubmitted ? (
+            <Submitted
+              submittedRating={selectedRating}
+              opacity={opacity}
+            />
+          ) : (
+            <Rating
+              selectedRating={selectedRating}
+              setSelectedRating={setSelectedRating}
+              submit={submitRating}
+              opacity={opacity}
+            />
+          )
+        }
+
+      </section>
+
+      <footer>
+
+        <p>
+          Developed by <a href='https://ryanbradleyportfolio.com' target='_blank' rel='noopener noreferrer'>Ryan Bradley</a>
+        </p>
+
+        <p>
+          &copy; <a href='https://frontendmentor.io' target='_blank' rel='noopener noreferrer'>Frontend Mentor</a>
+        </p>
+
+      </footer>
+
+    </>
   )
 }
 

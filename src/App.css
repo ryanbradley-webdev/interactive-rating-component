@@ -158,3 +158,13 @@ section > div > svg {
     margin-top: 32px;
   }
 }
+
+footer {
+  position: absolute;
+  bottom: 12px;
+}
+
+footer > p:nth-child(n) {
+  text-align: center;
+  margin-block: 10px;
+}

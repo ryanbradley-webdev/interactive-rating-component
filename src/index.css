@@ -55,6 +55,7 @@ p:not(:last-child) {
 
 a {
   text-decoration: none;
+  color: hsl(214, 51%, 49%)
 }
 
 button {
