@@ -38,6 +38,17 @@ body {
 h2 {
   font: var(--font-head-lg);
   color: var(--clr-white);
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 481px) {
+  h2 {
+    margin-bottom: 15px;
+  }
 }
 
 a {

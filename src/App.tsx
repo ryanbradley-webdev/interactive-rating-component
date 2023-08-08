@@ -1,8 +1,13 @@
 import './App.css'
+import StarIcon from './assets/StarIcon'
 
 function App() {
   return (
     <section>
+
+      <div className='icon'>
+        <StarIcon />
+      </div>
 
       <h2>
         How did we do?
@@ -12,26 +17,36 @@ function App() {
         Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
       </p>
 
-      <div>
+      <div className='rating'>
 
         <button>
-          1
+          <span>
+            1
+          </span>
         </button>
 
         <button>
-          2
+          <span>
+            2
+          </span>
         </button>
 
         <button>
-          3
+          <span>
+            3
+          </span>
         </button>
 
         <button>
-          4
+          <span>
+            4
+          </span>
         </button>
 
         <button>
-          5
+          <span>
+            5
+          </span>
         </button>
 
       </div>

@@ -19,3 +19,52 @@ section {
     border-radius: 30px;
   }
 }
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+  background-color: var(--clr-dark-blue);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 481px) {
+  .icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+  }
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rating button {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  background-color: var(--clr-dark-blue);
+  border: none;
+  border-radius: 100%;
+}
+
+.rating span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  height: 1.2em;
+}
+
+@media screen and (min-width: 481px) {
+  .rating button {
+    width: 51px;
+    height: 51px;
+  }
+}
