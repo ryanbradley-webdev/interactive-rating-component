@@ -1,12 +1,18 @@
 import ThankYou from "../assets/ThankYou"
 
 export default function Submitted({
-    submittedRating
+    submittedRating,
+    opacity
 }: {
     submittedRating: number | undefined
+    opacity: number
 }) {
     return (
-        <>
+        <div
+            style={{
+                opacity
+            }}
+        >
 
             <ThankYou />
 
@@ -24,6 +30,6 @@ export default function Submitted({
                 We appreciate you taking the time to give a rating. If you ever need more support, don&apos;t hesitate to get in touch!
             </p>
 
-        </>
+        </div>
     )
 }

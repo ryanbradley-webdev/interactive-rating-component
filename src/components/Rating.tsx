@@ -4,14 +4,20 @@ import StarIcon from "../assets/StarIcon"
 export default function Rating({
     selectedRating,
     setSelectedRating,
-    submit
+    submit,
+    opacity
 }: {
     selectedRating: number | undefined
     setSelectedRating: Dispatch<SetStateAction<number | undefined>>
     submit: () => void
+    opacity: number
 }) {
     return (
-        <>
+        <div
+            style={{
+                opacity
+            }}
+        >
         
             <div className='icon'>
                 <StarIcon />
@@ -82,6 +88,6 @@ export default function Rating({
                 SUBMIT
             </button>
         
-        </>
+        </div>
     )
 }
