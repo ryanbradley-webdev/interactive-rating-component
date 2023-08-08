@@ -12,8 +12,10 @@
   --font-head-md: bold 15px 'Overpass', 'Arial', sans-serif;
   --font-body: 15px/24px 'Overpass', 'Arial', sans-serif;
   --font-rating: bold 16px/24px 'Overpass', 'Arial', sans-serif;
-  --letter-space-head: 2px;
+  --font-button: bold 14px 'Overpass', 'Arial', sans-serif;
+  --letter-space-head-md: 2px;
   --letter-space-rating: 0.2px;
+  --letter-space-button: 1.87px;
 }
 
 *,
@@ -56,7 +58,5 @@ a {
 }
 
 button {
-  font: var(--font-rating);
-  color: var(--clr-med-grey);
   cursor: pointer;
 }

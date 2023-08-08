@@ -51,6 +51,10 @@ function App() {
 
       </div>
 
+      <button className='submit'>
+        SUBMIT
+      </button>
+
     </section>
   )
 }
